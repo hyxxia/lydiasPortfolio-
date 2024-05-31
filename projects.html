@@ -38,11 +38,6 @@
           background-color: #3B3B3B;
           color: white;
         }
-        
-        button:hover {
-          background-color: #7C7C7C;
-          color: white;
-        }
 
         button {
             margin-left: 10px;
@@ -88,9 +83,11 @@
             padding-left: 10px;
             padding-right: 10px;
             display: inline-block;
+            text-align:center;
+            transform:translate(-130px,-10px);
+            border-radius: 8px;
             height: 30px;
             width: 90px;
-            background-color: #555;
         }       
 
         </style>
@@ -100,7 +97,7 @@
         <div class="topnav">
           <a href = "main.html">Home</a>
           <a class="active" href="projects.html">Projects</a>
-          <a href = "contact.html">Contact</a>
+          <a href = "contact.html">Feedback</a>
         </div>
         
         <div style="padding-left:60px; padding-right: 60px;">
@@ -110,18 +107,28 @@
             <p style="font-size:20px;">Here are all my past projects that include a mix of business analyst, tester and developer roles. 
             <hr opacity="0.5" color="#7C7C7C" width="100%" size="1">
             
-            <a href = "contact.html"> <button> <img src="TIWarrantsProject.png" width="500" height="300"></img> 
-                <p> TI Warrants Uplift Project</p> 
-                <div class="rectangle"> VisioPro</div>
-                <div class="rectangle"> VisioPro</div>
-                <hr opacity="50%" color="#7C7C7C" width="100%" size="1">
-                <div class="buttonText">Deliver BA documents to the third party vendor </div>
-                
-                
+            <a href = "TIWarrants.html"> 
+                <button> 
+                    <img src="TIWarrantsProject.png" width="500" height="300"></img> 
+                    <p> TI Warrants Uplift Project</p> 
+                    <div class="rectangle" style="background-color: rgb(243,204,237, 0.5); color: #F3CCED; "> VisioPro</div>
+                    <div class="rectangle" style="background-color: rgb(204,210,243, 0.5); color: #CCD2F3;" > BA</div>
+                    <hr opacity="50%" color="#7C7C7C" width="100%" size="1">
+                    <div class="buttonText">Deliver BA documents to the third party vendor </div>
+                </button>
+            </a>
 
-            </button></a>
-
-            <a href = "contact.html"> <button> <img src="MarCelProject.png" width="500" height="300"></img> <p> Marriage Celebrants Portal and CRM</p> </button></a>
+            <a href = "marCel.html"> 
+                <button> 
+                    <img src="MarCelProject.png" width="500" height="300"></img> 
+                        <p> Marriage Celebrants Portal and CRM</p>
+                        <div class="rectangle" style="background-color: rgb(243,204,237, 0.5); color: #F3CCED; transform:translate(-70px,-10px);"> VisioPro</div>
+                        <div class="rectangle" style="background-color: rgb(204,210,243, 0.5); color: #CCD2F3; transform:translate(-70px,-10px);" > BA</div>
+                        <div class="rectangle" style="background-color: rgb(206,243,204, 0.5); color: #CEF3CC; transform:translate(-70px,-10px);" > Tester</div>
+                        <hr opacity="50%" color="#7C7C7C" width="100%" size="1">
+                        <div class="buttonText">Deliver BA documents, conduct UAT and create test cases. </div>  
+                </button>
+            </a>
             
         </div>
         <br>
