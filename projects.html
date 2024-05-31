@@ -17,6 +17,7 @@
         .topnav {
           padding-top: 10px;
           padding-bottom: 10px;
+          position: fixed;
           border-bottom:1px solid white;
           overflow: hidden;
           background-color: #000000;
@@ -90,20 +91,30 @@
             border-radius: 8px;
             height: 30px;
             width: 90px;
-        }       
+        }  
+        
+        .navRectangle {
+            padding-left: 10px;
+            padding-right: 10px;
+            display: inline-block;
+            border-radius: 8px;
+            height: 3px;
+            width: 900px;
+        }
 
         </style>
         </head>
         <body>
         
         <div class="topnav" style="margin-top: -20px;">
-          <a href = "main.html">Home</a>
-          <a class="active" href="projects.html">Projects</a>
-          <a href = "contact.html">Feedback</a>
+            <div class="navRectangle"> </div>
+            <a href = "main.html">Home</a>
+            <a class="active" href="projects.html">Projects</a>
+            <a href = "contact.html">Feedback</a>
         </div>
         
         <div style="padding-left:60px; padding-right: 60px;">
-            <p style = "font-size:35px; color:#F3CCED; font-weight: bold; margin-bottom: -100px;">Presenting-</p>
+            <p style = "font-size:35px; color:#F3CCED; font-weight: bold; margin-bottom: -100px; margin-top: 100px;">Presenting-</p>
             <p style="font-size:100px;font-weight: bold;margin-bottom:20px;">My Projects</p>
 
             <p style="font-size:20px;">Here are all my past projects that include a mix of business analyst, tester and developer roles. 

@@ -16,31 +16,33 @@
     }
     
     .topnav {
-      padding-top: 10px;
-      padding-bottom: 10px;
-      border-bottom:1px solid white;
-      overflow: hidden;
-      background-color: #000000;
-    }
-    
-    .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 16px 18px;
-      text-decoration: none;
-      font-size: 19px;
-    }
-    
-    .topnav a:hover {
-      background-color: #3B3B3B;
-      color: white;
-    }
-    
-    .topnav a.active {
-      background-color: #3B3B3B;
-      color: white;
-    }
+          padding-top: 10px;
+          padding-bottom: 10px;
+          position: fixed;
+          border-bottom:1px solid white;
+          overflow: hidden;
+          background-color: #000000;
+        }
+        
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 16px 18px;
+          text-decoration: none;
+          font-size: 19px;
+        }
+        
+        .topnav a:hover {
+          background-color: #3B3B3B;
+          color: white;
+        }
+        
+        .topnav a.active {
+          background-color: #3B3B3B;
+          color: white;
+        }
+        
     
     button:hover {
       background-color: #7C7C7C;
@@ -66,14 +68,24 @@
         
     }
 
+    .rectangle {
+            padding-left: 10px;
+            padding-right: 10px;
+            display: inline-block;
+            border-radius: 8px;
+            height: 3px;
+            width: 900px;
+        }   
+
     </style>
     </head>
     <body>
     
-    <div class="topnav" style="margin-top: -20px;">
-      <a href = "main.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a class="active" href = "contact.html">Feedback</a>
+      <div class="topnav" style="margin-top: -20px;">
+        <div class="rectangle"> </div>
+        <a href = "main.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a class="active" href = "contact.html">Feedback</a>
     </div>
 
 <main>
